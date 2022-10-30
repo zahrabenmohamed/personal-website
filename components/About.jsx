@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import AboutImg from '../public/assets/ZAHRA-benmohamed.jpg';
+import { motion } from 'framer-motion';
 
 const About = () => {
   return (
@@ -40,9 +41,12 @@ const About = () => {
           <Image src={AboutImg} className='rounded-xl' alt='/' />
         </div>
        {/* button to downlaod Resume  */}
-      <a href='cv.pdf' download='cv.pdf'>
-        <button>Resume</button>
-      </a>
+      <motion.a   whileHover={{ scale: 1.1 }}
+    onHoverStart={e => {}}
+    onHoverEnd={e => {}}
+       className='flex border w-60 h-50 px-20 py-1 rounded-[5px] items-center gap-2 hover:bg-[#a1bfff]' href='cv.pdf' download='cv.pdf'>
+        Download
+      </motion.a>
 
       </div>
     
