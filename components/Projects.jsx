@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
+import cryptoImg from '../public/assets/projects/prj1.png'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
@@ -17,26 +17,14 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
         
           <ProjectItem
-            title='Crypto App'
+            title='Digital agency website'
             backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
+            projectUrl='https://condescending-joliot-5286af.netlify.app/'
+            tech='Html,css,JS'
 
           />
-          <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
-          />
-          <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
-          />
+        
+         
         </div>
       </div>
     </div>
