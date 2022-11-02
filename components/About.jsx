@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import AboutImg from '../public/assets/ZAHRA-benmohamed.jpg';
-import {HiDownload} from 'react-icons'
+import {HiDownload} from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -31,12 +31,9 @@ const About = () => {
             mock wireframes all the way to deployed applications. In my spare
             time I run Code Commerce, a Youtube channel where I teach web
             developement and various front-end technologies.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas necessitatibus aspernatur dolorem quasi enim soluta, modi animi perspiciatis sint quisquam nobis facilis exercitationem! Alias architecto dolor quidem voluptatibus, iusto officiis.
           </p>
-          <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out some of my latest projects.
-            </p>
-          </Link>
+         
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />
@@ -44,11 +41,10 @@ const About = () => {
        {/* button to downlaod Resume  */}
       <motion.a  
       
-       whileHover={{ scale: 1.1 }}
-    onHoverStart={e => {}}
-    onHoverEnd={e => {}}
-       className='flex border w-60 h-50 px-20 py-1 rounded-[5px] items-center gap-2 hover:bg-[#a1bfff]' href='cv.pdf' download='cv.pdf'>
-        Download
+      
+       className='text-white bg-[#2563EB] flex border w-60 px-12 py-2.5 mr-2 mb-2 mt-6 rounded-[5px] items-center gap-2 hover:bg-[#a1bfff]' href='cv.pdf' download='cv.pdf'>
+        <HiDownload />
+        Download CV
         
       </motion.a>
 

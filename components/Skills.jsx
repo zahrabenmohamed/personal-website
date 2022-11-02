@@ -13,7 +13,8 @@ import Bootstrap from '../public/assets/skills/bootstrap.png';
 import Angular from '../public/assets/skills/angular.png';
 import spring from '../public/assets/skills/springBoot_.png'
 import Java from '../public/assets/skills/java.jpg';
-import Mysql from '../public/assets/skills/Mysql.png'
+import Mysql from '../public/assets/skills/Mysql.png';
+import Gitlab from '../public/assets/skills/gitlab.png';
 const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
@@ -147,6 +148,8 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
+        
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ const Contact = () => {
             zahra.benmohamed22@gmail.com
           </a>
           <div className='flex mt-3'>
-          <CiLocationOn /> Morocco, Casablanca
+          <CiLocationOn  size={22}/> Morocco, Casablanca
           </div>
           
 

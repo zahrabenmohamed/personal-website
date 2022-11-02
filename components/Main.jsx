@@ -20,6 +20,7 @@ function Main() {
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>LET&#39;S BUILD SOMETHING SPECIAL</p>
                 <h1 className='text-gray-700 py-4'>Hi I am <span className='text-blue-600'>{text}</span><Cursor cursorColor='#2563EB'/></h1>
+                <h1 className='text-gray-700 py-4'>A Future Full-stack developer</h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I am a computer science student with an exeperience in frontend using Both react Js and Angular.Currently I am focused on backend technologies using Spring Boot and Java.My mission is to solve problem while creating appealing and engaging  website solutions </p>
                 <div className='flex ietms-center justify-between max-w-[330px] m-auto py-4 ' >
                     
