@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import {motion} from 'framer-motion'
+import {motion} from 'framer-motion';
 
 
 
@@ -76,7 +76,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='border-b border-gray-300 my-4'>
-                        <p className='w-[85%] md-w py-4'> let&#39;s build something Legendary together</p>
+                        <p className='w-[85%] md-w py-4'> let&#39;s build something special</p>
                     </div>
                 </div>
 
@@ -107,11 +107,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Resume
-                </li>
-              </Link>
+             
               <Link href='/#contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contact

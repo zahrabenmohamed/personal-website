@@ -18,10 +18,9 @@ function Main() {
     <div className='w-full h-screen text-center'>
         <div className='max-w-[1240px w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>LET&#39;S BUILD SOMeTHING </p>
+                <p className='uppercase text-sm tracking-widest text-gray-600'>LET&#39;S BUILD SOMETHING SPECIAL</p>
                 <h1 className='text-gray-700 py-4'>Hi I am <span className='text-blue-600'>{text}</span><Cursor cursorColor='#2563EB'/></h1>
-                <h1 className='text-gray-700 py-4'>A Future Full-stack developer</h1>
-                <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I am a full stack developer student with an exeperience in frontend using Both react Js and Angular.Currently I am focused on backend technologies using Spring Boot and Java.My mission is to solve problem while creating appealing and engaging  website solutions </p>
+                <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I am a computer science student with an exeperience in frontend using Both react Js and Angular.Currently I am focused on backend technologies using Spring Boot and Java.My mission is to solve problem while creating appealing and engaging  website solutions </p>
                 <div className='flex ietms-center justify-between max-w-[330px] m-auto py-4 ' >
                     
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>

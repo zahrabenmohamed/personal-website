@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {CiLocationOn} from 'react-icons/ci';
 
 const Contact = () => {
   return (
@@ -16,7 +17,14 @@ const Contact = () => {
           >
             zahra.benmohamed22@gmail.com
           </a>
+          <div className='flex mt-3'>
+          <CiLocationOn /> Morocco, Casablanca
+          </div>
+          
+
         </div>
+                   
+                 
         
         
       </div>
@@ -27,9 +35,10 @@ const Contact = () => {
           className="hover:opacity-80 transition-opacity"
           rel="noreferrer"
         >
-          Designed & Crafted by Zahra © 2022
+          Designed & Crafted by Zahra © 2022 
         </a>
       </p>
+           
     </div>
   );
 };

@@ -14,9 +14,9 @@ const Experience = () => {
     <ul className='list-disc'>
       <li>Developed a microservices web application for online payment using Spring Boot and Angular
 within an Agile environment for 2 months.</li>
-<li>Created the database of 22 tables using Mysql following best practices of database design</li>
 <li>Integrated the CMI payment gateway into our web application, which resulted in 90% progress
 toward the project  goal.</li>
+<li><b>Technologies :</b> Angular (v12) , Spring Boot , java 11, Mysql </li>
     </ul>
 </a>
 
@@ -27,6 +27,7 @@ toward the project  goal.</li>
     <li>Contributed to the development of an AI-testing web application with a team from 4 different
 countries.</li>
 <li>Improved the user interface and user experience by 50%.</li>
+<li><b>Technologies :</b> React, Javascript</li>
    </ul>
 </a>
 
@@ -34,7 +35,7 @@ countries.</li>
     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">ENSEM | casa | 2021/06-2021/07</h5>
     <ul className='list-disc'>
       <li>Delivered the project from design to testing of a scientific research website for 2 weeks.</li>
-      <li>Tools : html, css , Bootstrap, Javascript</li>
+      <li><b>Technologies :</b> html, css , Bootstrap, Javascript</li>
     </ul>
     
 </a>
