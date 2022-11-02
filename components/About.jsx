@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import AboutImg from '../public/assets/ZAHRA-benmohamed.jpg';
+import {HiDownload} from 'react-icons'
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -9,7 +10,7 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+          <p className='uppercase text-xl tracking-widest text-[#2563EB]'>
             About
           </p>
           <h2 className='py-4'>Who I Am</h2>
@@ -41,11 +42,14 @@ const About = () => {
           <Image src={AboutImg} className='rounded-xl' alt='/' />
         </div>
        {/* button to downlaod Resume  */}
-      <motion.a   whileHover={{ scale: 1.1 }}
+      <motion.a  
+      
+       whileHover={{ scale: 1.1 }}
     onHoverStart={e => {}}
     onHoverEnd={e => {}}
        className='flex border w-60 h-50 px-20 py-1 rounded-[5px] items-center gap-2 hover:bg-[#a1bfff]' href='cv.pdf' download='cv.pdf'>
         Download
+        
       </motion.a>
 
       </div>
