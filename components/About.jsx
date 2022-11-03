@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/ZAHRA-benmohamed.jpg';
+import AboutImg from '../public/assets/projects/about.jpg';
 import {HiDownload} from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
