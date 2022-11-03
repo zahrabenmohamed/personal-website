@@ -1,9 +1,10 @@
 import React ,{useState , useEffect} from 'react'
 import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn, FaViacoin } from 'react-icons/fa';
+import { AiFillMediumSquare } from 'react-icons/ai';
 import {motion} from 'framer-motion';
+
 
 
 
@@ -31,7 +32,7 @@ const Navbar = () => {
   return (
     <div style={{ backgroundColor: `${navBg}` }}  className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300':'fixed w-full h-20 shadow-xl z-[100]'}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <motion.h2 initial={{ x:-500 ,scale:0.5,}} animate={{ x:0,scal: 1, }} transition={{duration:1.5,}}>
+        <motion.h2  initial={{ x:-500 ,scale:0.5,}} animate={{ x:0,scal: 1, }} transition={{duration:1.5,}}>
                             Zahra Benmohamed
                         </motion.h2>
             <div>
@@ -145,14 +146,16 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href='/resume'>
+                <a href='https://medium.com/@zahrabenmohamed'
+                  target='_blank'
+                  rel='noreferrer'>
+                  
                   <div
-                    onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
-                    <BsFillPersonLinesFill />
+                    <AiFillMediumSquare />
                   </div>
-                </Link>
+                </a>
               </div>
             
                 </div>
